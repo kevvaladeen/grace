@@ -1,0 +1,43 @@
+.app-root {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: radial-gradient(ellipse at 20% 10%, #3a0a20 0%, #1a0a12 40%, #0d0508 100%);
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Section divider ────────────────────────── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 3rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #c9a84c44,
+    #c9a84c66,
+    #c9a84c44,
+    transparent
+  );
+}
+
+.divider-ornament {
+  font-size: 0.85rem;
+  color: #c9a84c;
+  opacity: 0.5;
+  white-space: nowrap;
+  letter-spacing: 0.3em;
+}
